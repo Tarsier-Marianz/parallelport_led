@@ -1,0 +1,358 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:parallelport_led-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DB25 J1
+U 1 1 5953A21B
+P 5450 4650
+F 0 "J1" H 5500 6000 50  0000 C CNN
+F 1 "DB25" H 5400 3300 50  0000 C CNN
+F 2 "Connect:DB25F_CI" H 5450 4650 50  0001 C CNN
+F 3 "" H 5450 4650 50  0000 C CNN
+	1    5450 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 5953A2B2
+P 4450 2800
+F 0 "D1" H 4450 2900 50  0000 C CNN
+F 1 "LED" H 4450 2700 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 4450 2800 50  0001 C CNN
+F 3 "" H 4450 2800 50  0000 C CNN
+	1    4450 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 5953A42F
+P 4750 2800
+F 0 "D2" H 4750 2900 50  0000 C CNN
+F 1 "LED" H 4750 2700 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 4750 2800 50  0001 C CNN
+F 3 "" H 4750 2800 50  0000 C CNN
+	1    4750 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 5953A458
+P 5050 2800
+F 0 "D3" H 5050 2900 50  0000 C CNN
+F 1 "LED" H 5050 2700 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 5050 2800 50  0001 C CNN
+F 3 "" H 5050 2800 50  0000 C CNN
+	1    5050 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 5953A47C
+P 5350 2800
+F 0 "D4" H 5350 2900 50  0000 C CNN
+F 1 "LED" H 5350 2700 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 5350 2800 50  0001 C CNN
+F 3 "" H 5350 2800 50  0000 C CNN
+	1    5350 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 5953A4A9
+P 5650 2800
+F 0 "D5" H 5650 2900 50  0000 C CNN
+F 1 "LED" H 5650 2700 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 5650 2800 50  0001 C CNN
+F 3 "" H 5650 2800 50  0000 C CNN
+	1    5650 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 5953A4D3
+P 5950 2800
+F 0 "D6" H 5950 2900 50  0000 C CNN
+F 1 "LED" H 5950 2700 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 5950 2800 50  0001 C CNN
+F 3 "" H 5950 2800 50  0000 C CNN
+	1    5950 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D7
+U 1 1 5953A500
+P 6250 2800
+F 0 "D7" H 6250 2900 50  0000 C CNN
+F 1 "LED" H 6250 2700 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 6250 2800 50  0001 C CNN
+F 3 "" H 6250 2800 50  0000 C CNN
+	1    6250 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D8
+U 1 1 5953A530
+P 6550 2800
+F 0 "D8" H 6550 2900 50  0000 C CNN
+F 1 "LED" H 6550 2700 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 6550 2800 50  0001 C CNN
+F 3 "" H 6550 2800 50  0000 C CNN
+	1    6550 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5953A5C7
+P 4450 3300
+F 0 "R1" V 4530 3300 50  0000 C CNN
+F 1 "R" V 4450 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4380 3300 50  0001 C CNN
+F 3 "" H 4450 3300 50  0000 C CNN
+	1    4450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5953A62A
+P 4750 3300
+F 0 "R2" V 4830 3300 50  0000 C CNN
+F 1 "R" V 4750 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4680 3300 50  0001 C CNN
+F 3 "" H 4750 3300 50  0000 C CNN
+	1    4750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5953A663
+P 5050 3300
+F 0 "R3" V 5130 3300 50  0000 C CNN
+F 1 "R" V 5050 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4980 3300 50  0001 C CNN
+F 3 "" H 5050 3300 50  0000 C CNN
+	1    5050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5953A6A7
+P 5350 3300
+F 0 "R4" V 5430 3300 50  0000 C CNN
+F 1 "R" V 5350 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5280 3300 50  0001 C CNN
+F 3 "" H 5350 3300 50  0000 C CNN
+	1    5350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5953A6EE
+P 5650 3300
+F 0 "R5" V 5730 3300 50  0000 C CNN
+F 1 "R" V 5650 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 3300 50  0001 C CNN
+F 3 "" H 5650 3300 50  0000 C CNN
+	1    5650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5953A730
+P 5950 3300
+F 0 "R6" V 6030 3300 50  0000 C CNN
+F 1 "R" V 5950 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5880 3300 50  0001 C CNN
+F 3 "" H 5950 3300 50  0000 C CNN
+	1    5950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5953A779
+P 6250 3300
+F 0 "R7" V 6330 3300 50  0000 C CNN
+F 1 "R" V 6250 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6180 3300 50  0001 C CNN
+F 3 "" H 6250 3300 50  0000 C CNN
+	1    6250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5953A7C5
+P 6550 3300
+F 0 "R8" V 6630 3300 50  0000 C CNN
+F 1 "R" V 6550 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6480 3300 50  0001 C CNN
+F 3 "" H 6550 3300 50  0000 C CNN
+	1    6550 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3000 4450 3150
+Wire Wire Line
+	4750 3000 4750 3150
+Wire Wire Line
+	5050 3000 5050 3150
+Wire Wire Line
+	5350 3000 5350 3150
+Wire Wire Line
+	5650 3000 5650 3150
+Wire Wire Line
+	5950 3000 5950 3150
+Wire Wire Line
+	6250 3000 6250 3150
+Wire Wire Line
+	6550 3000 6550 3150
+Wire Wire Line
+	4450 3450 4450 4200
+Wire Wire Line
+	4750 3450 4750 3550
+Wire Wire Line
+	4750 3550 4650 3550
+Wire Wire Line
+	4650 3550 4650 4200
+Wire Wire Line
+	5050 3450 5050 3600
+Wire Wire Line
+	5050 3600 4850 3600
+Wire Wire Line
+	4850 3600 4850 4200
+Wire Wire Line
+	5350 3450 5350 3650
+Wire Wire Line
+	5350 3650 5050 3650
+Wire Wire Line
+	5050 3650 5050 4200
+Wire Wire Line
+	5650 3450 5650 3700
+Wire Wire Line
+	5650 3700 5250 3700
+Wire Wire Line
+	5250 3700 5250 4200
+Wire Wire Line
+	5950 3450 5950 3750
+Wire Wire Line
+	5950 3750 5450 3750
+Wire Wire Line
+	5450 3750 5450 4200
+Wire Wire Line
+	6250 3450 6250 3800
+Wire Wire Line
+	6250 3800 5650 3800
+Wire Wire Line
+	5650 3800 5650 4200
+Wire Wire Line
+	6550 3450 6550 3850
+Wire Wire Line
+	6550 3850 5850 3850
+Wire Wire Line
+	5850 3850 5850 4200
+Wire Wire Line
+	6750 2500 6750 4050
+Wire Wire Line
+	6750 4050 6550 4050
+Wire Wire Line
+	6550 4050 6550 4200
+Text Label 6750 3650 0    60   ~ 0
+GND
+Text Label 6550 3550 0    60   ~ 0
+D7
+Text Label 6250 3550 0    60   ~ 0
+D6
+Text Label 5950 3550 0    60   ~ 0
+D5
+Text Label 5650 3550 0    60   ~ 0
+D4
+Text Label 5350 3550 0    60   ~ 0
+D3
+Text Label 5050 3550 0    60   ~ 0
+D2
+Text Label 4750 3550 0    60   ~ 0
+D1
+Text Label 4450 3550 0    60   ~ 0
+D0
+NoConn ~ 4250 4200
+NoConn ~ 4350 4200
+NoConn ~ 4550 4200
+NoConn ~ 4750 4200
+NoConn ~ 4950 4200
+NoConn ~ 5150 4200
+NoConn ~ 5350 4200
+NoConn ~ 5550 4200
+NoConn ~ 5750 4200
+NoConn ~ 5950 4200
+NoConn ~ 6050 4200
+NoConn ~ 6150 4200
+NoConn ~ 6250 4200
+NoConn ~ 6350 4200
+NoConn ~ 6450 4200
+NoConn ~ 6650 4200
+Wire Wire Line
+	4450 2600 4450 2500
+Wire Wire Line
+	4450 2500 6750 2500
+Wire Wire Line
+	4750 2500 4750 2600
+Connection ~ 4750 2500
+Wire Wire Line
+	5050 2500 5050 2600
+Connection ~ 5050 2500
+Wire Wire Line
+	5350 2500 5350 2600
+Connection ~ 5350 2500
+Wire Wire Line
+	5650 2500 5650 2600
+Connection ~ 5650 2500
+Wire Wire Line
+	5950 2500 5950 2600
+Connection ~ 5950 2500
+Wire Wire Line
+	6250 2500 6250 2600
+Connection ~ 6250 2500
+Wire Wire Line
+	6550 2500 6550 2600
+Connection ~ 6550 2500
+$EndSCHEMATC
